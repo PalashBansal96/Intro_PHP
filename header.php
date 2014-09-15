@@ -22,6 +22,7 @@
 	<body>
 
 <?php if(isset($_SESSION['Login'])){ ?>   <!-- Navigation Bar Code below (If we plan to add CSS)  -->
+	<a href="index.php">Home</a> <br/>
 	Welcome <?php echo $_SESSION['Name'];?> <br/>
 	<a href="logout.php">Logout</a>
 
