@@ -21,6 +21,7 @@
 	case '/':
 	if ($_GET['b']!=0){
 		$c=$_GET['a']/$_GET['b'];
+	else $c = "Not Defined";
 	}
 	break;
 }
